@@ -1,0 +1,34 @@
+{
+  "name": "mctl-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/mctl/mctl-cli.git",
+  "author": "mctl",
+  "license": "MIT",
+  "private": false,
+  "bin": {
+    "mctl": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "keywords": [
+    "mctl",
+    "脚手架"
+  ],
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^8.1.0",
+    "download-git-repo": "^3.0.2",
+    "ejs": "^3.1.6",
+    "figlet": "^1.5.0",
+    "fs-extra": "^10.0.0",
+    "glob": "^7.1.7",
+    "inquirer": "^8.1.2",
+    "ora": "^5.4.1"
+  }
+}
