@@ -6,17 +6,17 @@ const figlet = require('figlet');
 const create = require('../lib/create.js');
 
 const urls = {
-  createUrl: '',
+  dumiUrl: 'mctl/template#dumi',
   cptUrl: 'mctl/template#cpt',
 };
 
 program
   // 定义命令和参数
   .command('create <app-name>')
-  .description('创建项目')
+  .description('创建dumi组件库项目')
   .option('-f, --force', '强制覆盖目录')
   .action((name, options) => {
-    create(name, options, urls.createUrl, true);
+    create(name, options, urls.dumiUrl, true);
   });
 
 program
