@@ -12,7 +12,7 @@ const urls = {
 
 program
   // 定义命令和参数
-  .command('create <app-name>')
+  .command('dumi <app-name>')
   .description('创建dumi组件库项目')
   .option('-f, --force', '强制覆盖目录')
   .action((name, options) => {

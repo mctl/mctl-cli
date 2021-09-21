@@ -9,9 +9,16 @@ npm install mctl-cli -g
 yarn global add mctl-cli
 ```
 
-## 创建函数组件模版
+## 创建函数组件
 
 ```js
 // -f 强制覆盖
-mctl cpt testComponent -f
+mctl cpt test-component -f
+```
+
+## 创建dumi组件库
+
+```js
+// -f 强制覆盖
+mctl dumi test-pro -f
 ```
